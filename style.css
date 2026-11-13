@@ -55,7 +55,6 @@ img { max-width: 100%; display: block; }
   padding: 0 24px;
 }
 
-/* SCROLLBAR */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 3px; }
@@ -255,29 +254,23 @@ img { max-width: 100%; display: block; }
 }
 
 .blob-1 {
-  width: 500px;
-  height: 500px;
+  width: 500px; height: 500px;
   background: var(--primary);
-  top: -100px;
-  right: -100px;
+  top: -100px; right: -100px;
   animation-delay: 0s;
 }
 
 .blob-2 {
-  width: 400px;
-  height: 400px;
+  width: 400px; height: 400px;
   background: #8b5cf6;
-  bottom: 100px;
-  left: -100px;
+  bottom: 100px; left: -100px;
   animation-delay: -3s;
 }
 
 .blob-3 {
-  width: 300px;
-  height: 300px;
+  width: 300px; height: 300px;
   background: var(--accent);
-  top: 50%;
-  left: 50%;
+  top: 50%; left: 50%;
   animation-delay: -6s;
 }
 
@@ -307,8 +300,7 @@ img { max-width: 100%; display: block; }
 }
 
 .badge-dot {
-  width: 8px;
-  height: 8px;
+  width: 8px; height: 8px;
   background: var(--accent);
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
@@ -419,7 +411,7 @@ img { max-width: 100%; display: block; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center 50%;
   display: block;
   border-radius: 50%;
 }
@@ -432,23 +424,20 @@ img { max-width: 100%; display: block; }
 }
 
 .ring-1 {
-  width: 200px;
-  height: 200px;
+  width: 200px; height: 200px;
   border-color: rgba(99, 102, 241, 0.3);
   animation-duration: 15s;
 }
 
 .ring-2 {
-  width: 245px;
-  height: 245px;
+  width: 245px; height: 245px;
   border-color: rgba(139, 92, 246, 0.2);
   animation-duration: 25s;
   animation-direction: reverse;
 }
 
 .ring-3 {
-  width: 290px;
-  height: 290px;
+  width: 290px; height: 290px;
   border-color: rgba(34, 211, 238, 0.15);
   animation-duration: 35s;
 }
@@ -467,13 +456,8 @@ img { max-width: 100%; display: block; }
 .orbit-2 { animation-duration: 12s; animation-delay: -4s; }
 .orbit-3 { animation-duration: 16s; animation-delay: -8s; }
 
-.orbit-1 { top: 10px; left: 50%; margin-left: -20px; }
-.orbit-2 { bottom: 10px; left: 50%; margin-left: -20px; }
-.orbit-3 { top: 50%; right: 10px; margin-top: -20px; }
-
 .orbit-icon {
-  width: 40px;
-  height: 40px;
+  width: 40px; height: 40px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -531,8 +515,7 @@ img { max-width: 100%; display: block; }
 }
 
 .about-card-icon {
-  width: 56px;
-  height: 56px;
+  width: 56px; height: 56px;
   background: rgba(99, 102, 241, 0.15);
   border-radius: 14px;
   display: flex;
@@ -581,14 +564,14 @@ img { max-width: 100%; display: block; }
 .info-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 10px;
 }
 
 .info-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 16px;
+  padding: 10px 16px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -613,9 +596,7 @@ img { max-width: 100%; display: block; }
 /* =============================================
    EXPERIENCE
    ============================================= */
-.experience {
-  padding: 100px 0;
-}
+.experience { padding: 100px 0; }
 
 .exp-grid {
   display: grid;
@@ -636,9 +617,7 @@ img { max-width: 100%; display: block; }
 .exp-card::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   height: 3px;
   background: var(--gradient);
   opacity: 0;
@@ -669,8 +648,7 @@ img { max-width: 100%; display: block; }
 }
 
 .exp-icon {
-  width: 48px;
-  height: 48px;
+  width: 48px; height: 48px;
   background: rgba(99, 102, 241, 0.15);
   border-radius: 12px;
   display: flex;
@@ -714,11 +692,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 16px;
 }
 
-.exp-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
+.exp-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .tag {
   padding: 4px 10px;
@@ -753,9 +727,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 24px;
 }
 
-.skill-item {
-  margin-bottom: 20px;
-}
+.skill-item { margin-bottom: 20px; }
 
 .skill-info {
   display: flex;
@@ -815,9 +787,7 @@ img { max-width: 100%; display: block; }
 /* =============================================
    CONTACT
    ============================================= */
-.contact {
-  padding: 100px 0;
-}
+.contact { padding: 100px 0; }
 
 .contact-wrapper {
   display: grid;
@@ -836,7 +806,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  padding: 20px 20px;
+  padding: 20px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -849,8 +819,7 @@ img { max-width: 100%; display: block; }
 }
 
 .contact-card-icon {
-  width: 44px;
-  height: 44px;
+  width: 44px; height: 44px;
   flex-shrink: 0;
   background: rgba(99, 102, 241, 0.15);
   border-radius: 10px;
@@ -874,7 +843,6 @@ img { max-width: 100%; display: block; }
   line-height: 1.5;
 }
 
-/* FORM */
 .contact-form {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -882,9 +850,7 @@ img { max-width: 100%; display: block; }
   padding: 32px;
 }
 
-.form-group {
-  margin-bottom: 20px;
-}
+.form-group { margin-bottom: 20px; }
 
 .form-group label {
   display: block;
@@ -917,9 +883,7 @@ img { max-width: 100%; display: block; }
 }
 
 .form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: var(--text-dim);
-}
+.form-group textarea::placeholder { color: var(--text-dim); }
 
 .form-success {
   display: none;
@@ -1012,7 +976,6 @@ img { max-width: 100%; display: block; }
   .hero-desc { margin: 0 auto 32px; }
   .hero-cta { justify-content: center; }
   .hero-stats { justify-content: center; }
-
   .about-grid { grid-template-columns: 1fr; }
   .about-bio { grid-template-columns: 1fr; }
   .exp-grid { grid-template-columns: 1fr; }
@@ -1025,8 +988,7 @@ img { max-width: 100%; display: block; }
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
-    right: 0;
+    left: 0; right: 0;
     background: rgba(10, 10, 15, 0.98);
     backdrop-filter: blur(20px);
     flex-direction: column;
@@ -1039,12 +1001,7 @@ img { max-width: 100%; display: block; }
   .hamburger { display: flex; }
   .navbar { position: relative; }
   .navbar.scrolled { position: fixed; }
-
   .hero-visual { display: none; }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .about-grid { grid-template-columns: 1fr; }
   .footer-top { flex-direction: column; align-items: flex-start; }
 }
